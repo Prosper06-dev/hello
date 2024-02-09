@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    color: #ffff;
+    text-align: center;
+    align-items: center;
+    margin: 40vh auto;
+}
+
+h1{
+    font-size: 100px;
+}
+
+form{
+    text-align: center;
+    padding-top: 40px;
+}
+  
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+#type-space {
+    margin: 0px auto;
+    background-color: rgb(44, 43, 43);
+    display: block;
+    height: 6vh;
+    width: 650px;
+    font-size: 18px;
+    border-radius: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(146, 144, 144);
+    color: #ffff;
+}
+
+#search{
+    height: 6vh;
+    background-color: rgb(70, 67, 67);
+    display: block;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #ffff;
+    width: 140px;
+    padding: 10px auto;
+    margin: 60px auto;
+    border: 0px solid rgb(146, 144, 144);
+}
+
+button{
+    height: 6vh;
+    background-color: rgb(70, 67, 67);
+    display: block;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #ffff;
+    width: 160px;
+    padding: 10px auto;
+    margin: 60px auto;
+    border: 0px solid rgb(146, 144, 144);
+}
+
+button > a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.btn{
+    margin: 0px auto;
+    width: 360px;
+    display: flex;
+    justify-content: space-around;
+}
+
+i{
+    position: absolute;
+    font-size: 30px;
+    color: rgb(146, 144, 144);
+    top: 50%;
+    transform: translateY(-50%);
+    right: 605px;
+}
+  
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 220px;
+    margin-top: 20px;
+}
+
+li > a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.lang{
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lang > p{
+    color: #ffff;
+    font-size: 18px;
+}
+
+.lang > p > a{
+    text-decoration: none;
+    color: rgb(64, 64, 246);
+}
+
+.lang > p > a:hover{
+    text-decoration: underline;
+}
