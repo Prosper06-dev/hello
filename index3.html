@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="google3.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h2>Google</h2>
+            <ul>
+                <li><a href="index.html">Main</a></li>
+                <li><a href="index2.html">Images</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <p class="page_name">Advanced Search</p>
+        <hr>
+
+        <!-- The main search form -->
+        <form class="search-inputs" action="https://www.google.com/search">
+            <p class="first-p">Find pages with...</p>
+            <p>all these words: <input type="text" name="q" id="words"></p>
+            <p>these exact word or phrase: <input type="text" name="q" id="specific"></p>
+            <p>any of these words: <input type="text" name="q" id="optional"></p>
+            <p>none of these words: <input type="text" name="q" id="unwanted"></p>
+            <p>numbers ranging from: <input class="divided" type="number" name="q" id="range"> to <input class="divided" type="number" name="q" id="range"></p>
+        </form>
+
+        <hr>
+        <!-- Form to narrow the results -->
+        <form class="more-inputs">
+            <p class="first-p">Then narrow your results by...</p>
+            <p>language: <b>any language</b></p>
+            <p>region: any region</p>
+            <p>last update: anytime</p>
+            <p>site or domain: <input type="text" name="q" id="site"></p>
+            <p>terms appearing: anywhere in the page</p>
+            <p>file type: any format</p>
+            <p>usage right: not filtered by license</p>
+        </form>
+
+        <button>Advanced Search</button>
+    </main>
+</body>
+</html>
